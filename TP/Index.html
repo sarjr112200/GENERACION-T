@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Matriz de Responsabilidades</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Matriz de Responsabilidades</h1>
+        <p>Esta aplicación te permite gestionar las actividades de tus proyectos y asignarlas a tus desarrolladores. Haz clic en "Agregar Actividad" y "Agregar Desarrollador" para empezar.</p>
+    </div>
+
+    <div class="section" id="activities">
+        <h2>Actividades</h2>
+        <ul id="activity-list"></ul>
+        <button onclick="addActivity()">Agregar Actividad</button>
+    </div>
+
+    <div class="section" id="developers">
+        <h2>Desarrolladores</h2>
+        <ul id="developer-list"></ul>
+        <button onclick="addDeveloper()">Agregar Desarrollador</button>
+    </div>
+
+    <div class="section" id="responsibility-matrix">
+        <!-- La matriz se generará aquí -->
+    </div>
+
+    <div class="description">
+        <h2>Cómo usar esta aplicación</h2>
+        <p>1. Haz clic en "Agregar Actividad" para crear nuevas actividades.</p>
+        <p>2. Haz clic en "Agregar Desarrollador" para añadir nuevos miembros al equipo.</p>
+        <p>3. Asigna actividades a los desarrolladores seleccionando sus nombres en la matriz.</p>
+        <p>4. Cambia el estado de una actividad haciendo clic en "Cambiar Estado".</p>
+        <p>5. Si necesitas quitar una actividad o desarrollador, utiliza los botones "Quitar".</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
